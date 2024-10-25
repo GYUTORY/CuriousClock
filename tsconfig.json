@@ -15,14 +15,13 @@
     // 소스 맵을 생성합니다. 소스 맵은 디버깅에 사용됩니다.
     "sourceMap": true,
     // 컴파일된 파일의 출력 디렉토리를 지정합니다.
-    "outDir": "ConvertSrc",
+    "outDir": "dist",
     // 상대적인 모듈 경로를 해결할 때 사용되는 기본 경로를 지정합니다.
     "baseUrl": ".",
     // 모듈 경로를 매핑합니다. "*"는 모든 모듈을 의미하며, "node_modules/*"은 Node.js 모듈을, "src/types/*"은 TypeScript 타입 정의 파일을 매핑합니다.
     "paths": {
       "*": [
-        "node_modules/*",
-        "src/types/*"
+        "node_modules/*"
       ]
     },
     // TypeScript가 제공하는 라이브러리를 선택합니다. "es2015"는 ECMAScript 2015 라이브러리를 사용합니다.
