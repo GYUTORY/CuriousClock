@@ -18,6 +18,6 @@ const app = express();
     await ExpressLoader();
 
     // Mongo Start
-    // await MongoLoader();
+    await MongoLoader();
 
 })();
